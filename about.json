@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "data": {
+    "type": "bio",
+    "about": {
+      "name": "Markus",
+      "where": [
+        "Github",
+        "FANDOM",
+        "Discord"
+      ],
+      "experience": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Python",
+        "Web frameworks"
+      ],
+      "quote": "Hi mom"
+    }
+  } 
+}

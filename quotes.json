@@ -1,5 +1,8 @@
 {
-  "result": {
+  "success": true,
+  "data": {
+    "type": "array",
+    "id": "1",
     "quotes": [
       "What's the deal with airline food?",
       "what if the term \"Naked\" is some sort of in-universe meaning or subject in hollyoaks and it doesn't necessarily mean actual nudity?",
