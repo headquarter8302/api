@@ -1,0 +1,41 @@
+{
+  "type": "object",
+  "description": "The toplevel root of all response data",
+  "properties": {
+      "meta": {
+          "type": "object",
+          "properties": {
+              "type": {
+                  "type": "string",
+                  "description": "Type of data stored within the data object",
+                  "pattern": "(String)|(StringURL)|(Integer)|(Array)|(Boolean)|(Object)|(mixed)"
+              }
+          },
+          "required": [
+              "type"
+          ]
+      },
+      "data": {
+          "anyOf": [
+              {
+                  "type": [
+                      "object",
+                      "string",
+                      "array",
+                      "boolean",
+                      "integer"
+                  ],
+                  "description": "The data object itself",
+                  "items": {
+                      "anyOf": []
+                  }
+              }
+          ],
+          "description": "The object that contains the primary response data"
+      }
+  },
+  "required": [
+      "meta",
+      "data"
+  ]
+}

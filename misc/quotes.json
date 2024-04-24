@@ -1,8 +1,8 @@
 {
-  "success": true,
+  "meta": {
+    "type": "Array"
+  },
   "data": {
-    "type": "array",
-    "id": "1",
     "quotes": [
       "What's the deal with airline food?",
       "what if the term \"Naked\" is some sort of in-universe meaning or subject in hollyoaks and it doesn't necessarily mean actual nudity?",
@@ -17,7 +17,8 @@
       "What is BNHA, Bananas in New Hampshire Association?",
       "After all, \"bfdi\" could stand for \"Bananas for Delaware Initiative\"",
       "So. Many. Bugs",
-      "Even though you may be disappointed with the block, think of it as an opportunity to learn from your mistakes and try to not do the thing that got you blocked again"
+      "Even though you may be disappointed with the block, think of it as an opportunity to learn from your mistakes and try to not do the thing that got you blocked again",
+      "Patching the deployment in prod"
     ]
   }
 }

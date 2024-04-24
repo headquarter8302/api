@@ -1,24 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>API Endpoint</title>
-    <style>
-      html,body{background-color:#1b1b1b;color:azure;margin:0;padding:0;}
-    </style>
-    <base href="https://headquarter8302.github.io/api/">
-  </head>
-  <body>
-    <h1>API Endpoint</h1>
-    <h2>Directory</h2>
-    <ul>
-      <li><a href="/about.json">about.json</a></li>
-      <li><a href="/quotes.json">quotes.json</a></li>
-      <li><a href="/status.json">status.json</a></li>
-    </ul>
-    <h2>Contact</h2>
-    <a href="//github.com/headquarter8302">github.com/headquarter8302</a>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>API Endpoint</title>
+  <style>
+    html,
+    body {
+      background-color: #1b1b1b;
+      color: azure;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      padding: 1vw
+    }
+  </style>
+  <base href="https://headquarter8302.github.io/api/">
+</head>
+
+<body>
+  <h1>API Endpoint</h1>
+  <h2>Directory</h2>
+  <ul>
+    <li><a href="/api/about.json">about.json</a> - general data</li>
+    <li><a href="/api/quotes.json">quotes.json</a> - <code>misc&sol;</code>, quotes I've gathered </li>
+    <li><a href="/api/status.json">status.json</a> - status of the endpoint, should return "OK"</li>
+    <li><a href="/api/information/music.json">music.json</a> - <code>information&sol;</code>, information regarding my music</li>
+    <li><a href="/api/meta/schema/schema.json">schema.json</a> - <code>meta&sol;schema&sol;</code>, the schema</li>
+  </ul>
+  <h2>Schema</h2>
+  <ol>
+    <li><code>meta</code> - object, containing metadata regarding the endpoint and the response.
+      <ol>
+        <li><code>type</code> - string, First Letter Capitalized, containing the type of data that's given, can be one
+          of:
+          <ul>
+            <li><code>String</code></li>
+            <li><code>StringURL</code>, a URL in the form of a string, <i>should</i> be a legal WHATWG URL according to
+              the living standard</li>
+            <li><code>Integer</code></li>
+            <li><code>Array</code></li>
+            <li><code>Boolean</code></li>
+            <li><code>Object</code>, will contain other types of data.</li>
+            <li><code>mixed</code>, contains more than one property.</li>
+          </ul>
+        </li>
+      </ol>
+    </li>
+    <li><code>data</code> - object, the data object iself. Can contain anything.</li>
+  </ol>
+  <h2>Contact</h2>
+  <a href="//github.com/headquarter8302">github.com/headquarter8302</a>
+</body>
+
 </html>

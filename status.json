@@ -1,5 +1,8 @@
 {
-  "success": true,
-  "code": "200",
-  "status": "OK"
+  "meta": {
+    "type": "String"
+  },
+  "data": {
+    "status": "OK"
+  }
 }

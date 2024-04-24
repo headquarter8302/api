@@ -1,22 +1,24 @@
 {
-  "success": true,
+  "meta": {
+    "type": "mixed"
+  },
   "data": {
     "type": "bio",
     "about": {
       "name": "Markus",
       "where": [
-        "Github",
+        "GitHub",
         "FANDOM",
         "Discord"
       ],
-      "experience": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Python",
-        "Web frameworks"
-      ],
       "quote": "Hi mom"
-    }
-  } 
+    },
+    "links": [
+      "https://headquarter8302.github.io/",
+      "https://headquarter8302.github.io/redirect",
+      "https://headquarter8302.github.io/blog",
+      "https://headquarter8302.github.io/music",
+      "https://headquarter8302.github.io/api"
+    ]
+  }
 }

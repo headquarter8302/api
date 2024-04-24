@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "type": "Object"
+  },
+  "data": {
+    "releases": {
+      "TRANSMORPHOSIS": {
+        "releaseDate": "2023-09-24T04:00:00.000Z",
+        "genre": "Phonk",
+        "links": [
+          "https://youtu.be/rsdPgkTR3Iw",
+          "https://soundcloud.com/headquarter8302/due-date"
+        ]
+      },
+      "Due Date": {
+        "releaseDate": "2024-03-24T04:00:00.000Z",
+        "genre": "Techno",
+        "links": [
+          "https://youtu.be/iaca1n_V0RQ",
+          "https://soundcloud.com/headquarter8302/due-date"
+        ]
+      },
+      "Sunray": {
+        "releaseDate": "2024-03-29T04:00:00.000Z",
+        "genre": "Ambient soundtrack",
+        "links": [
+          "https://youtu.be/eVPSTtSb4_4",
+          "https://soundcloud.com/headquarter8302/sunray"
+        ]
+      },
+      "Metamorph Piano": {
+        "releaseDate": "2024-03-27T04:00:00.000Z",
+        "genre": "Piano cover",
+        "links": [
+          "https://youtu.be/aMwnlGF5KUw"
+        ]
+      },
+      "METAMORPHOSIS IV Piano": {
+        "releaseDate": "2024-03-31T04:00:00.000Z",
+        "genre": "Piano cover",
+        "links": [
+          "https://youtu.be/FoYDhRVraJQ"
+        ]
+      }
+    }
+  }
+}
